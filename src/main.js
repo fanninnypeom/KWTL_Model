@@ -8,6 +8,8 @@ import Page1 from '@/pages/Page1.vue'
 import Page2 from '@/pages/Page2.vue'
 
 Vue.use(VueRouter)
+
+
 Vue.config.productionTip = false
 
 const routes = [
@@ -19,6 +21,8 @@ const routes = [
 const router = new VueRouter({
     routes
 })
+
+
 
 new Vue({
   router,
